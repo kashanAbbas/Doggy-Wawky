@@ -1,0 +1,22 @@
+@media (max-width: 320.98px) { 
+.profile-pic-end img {
+    border: 10px solid #e9ecef;
+    margin: 20px 0px;
+}
+
+
+.profile-data-sec span {
+    font-size: 10px;
+    
+}
+
+
+.profile-data-sec .post-bt {
+    font-size: 8px;  
+}
+
+.profile-data-sec .cancel-bt {
+    font-size: 9px;
+}
+
+ }

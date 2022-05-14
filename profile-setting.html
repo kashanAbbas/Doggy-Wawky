@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+    <title>Profile-Doggy Wakky</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/brands.min.css">
+    <link rel="stylesheet" type="text/css" href="css/solid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.dropdown.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.dropdown.min.css">
+    <link rel="preload" href="fonts/oswald-stencil-webfont.woff2" as="font" type="font/woff2"/>
+    <link rel="preload" href="fonts/oswald-stencil-webfont.woff" as="font" type="font/woff"/>
+    <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="fonts/Montserrat-Bold.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-Black.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Black.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="fonts/Montserrat-SemiBold.woff" as="font" type="font/woff" />
+    <link rel="preload" href="fonts/Montserrat-Light.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Light.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Medium.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Regular.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="webfonts/fa-brands-400.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2"  />
+    <link rel="stylesheet" type="text/css" href="css/responsive-xl.css" media="(max-width: 1399.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-lg.css" media="(max-width: 1199.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-md.css" media="(max-width: 991.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-sm.css" media="(max-width: 767.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-xs.css" media="(max-width: 320.98px)">
+  </head>
+  <body>
+    <header class="bg-navy-blue py-md-3">
+      <div class="nav_first wow fadeInUp" data-wow-duration="2s">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-4 col-xs-12">
+              <div class="main_menu">
+                <ul>
+                  <li><a href="services.html">Services </a></li>
+                  <span>|</span>
+                  <li><a href="product-shop.html">DW Shop</a></li>
+                  <span>|</span>
+                  <li><a href="heroes.html">DW Heroes</a></li>
+                  <span>|</span>
+                  <li><a href="about.html">About Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12">
+              <div class="mainlogo dashborad-logo">
+                <a href="index.html"> <img src="images/logo.png" alt="logo" class="img-fluid center-block d-block mx-auto"></a>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-4 col-xs-12 text-end">
+              <div class="dashborad-sec">
+                <div class="first-profile">
+                  <a href="search-now.html"><img src="images/profile-pic.png" alt="profile" class="img-fluid"> </a>  
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Oliver ava</button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                      <li><a class="dropdown-item" href="profile-setting.html">edit profile</a></li>
+                      <li><a class="dropdown-item" href="index.html">Log Out</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="profile-text">
+                  <ul>
+                    <li><a href="#">Help ?</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="profile-setting WawkyAppSec py-md-5">
+    <div class="container">
+
+    <div class="row">
+    <div class="col-md-8 wow slideInLeft" data-wow-duration="3s">
+    
+  <div class="col-md-12 mt-2">
+
+    <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+  <label class="labels">Your Pets – Add your pets or edit their information</label><input type="text" class="form-control" placeholder="information" value="">
+</div>
+  <div class="col-md-12 mt-2">
+    
+    <div class="ab-text-setting">
+      <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid"><label class="labels">Pet Details</label><textarea></textarea></div>
+    </div>
+     <div class="col-md-12 mt-2">
+    
+    <div class="ab-text-setting">
+      <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid"><label class="labels">Additional Details</label><textarea></textarea></div>
+    </div>
+  
+    
+  <div class="col-md-12 mt-2">
+    <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+    <label class="labels">Provide a description of your pet</label><input type="text" class="form-control" placeholder=" experience in dogs" value=""></div>
+   <div class="col-md-12 mt-2">
+    <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+    <label class="labels">Care Info</label><input type="text" class="form-control" placeholder="Provide your sitter instructions for walking, feeding and other care.
+" value=""></div>
+<div class="row">
+  
+     <div class="col-md-6 mt-2">
+  <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+   <label class="labels">Sex</label>
+               
+       <div class="custom-select-list mt-0 mb-0">
+                 <select  class="bt-new-form form-select">
+                <option>..</option>
+                <option>Female</option>
+                 <option>Male</option>
+             
+                  </select>
+      </div>
+    </div>
+     <div class="col-md-6 mt-2">
+  <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+   <label class="labels">Weight (lbs.)</label>
+               
+       <div class="custom-select-list mt-0 mb-0">
+                 <select  class="bt-new-form form-select">
+                <option>..</option>
+                <option>Small (0 - 15 lbs)</option>
+                <option>Medium (16 - 40 lbs)</option>
+                <option>Large (41 - 100 lbs)</option>
+                <option>Giant (Over 101 lbs)</option>
+             
+                  </select>
+      </div>
+    </div>
+  </div>
+
+<div class="row">
+  
+     <div class="col-md-6 mt-2">
+  <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+   <label class="labels">Age (Years)</label>
+               
+       <div class="custom-select-list mt-0 mb-0">
+                 <select  class="bt-new-form form-select">
+                <option>..</option>
+                <option>Less than 1 year</option>
+                <option>1-3 Years</option>
+                <option>4-6 Years</option>
+                <option>More 6 than Years</option>
+             
+                  </select>
+      </div>
+    </div>
+     <div class="col-md-6 mt-2">
+  <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+   <label class="labels">Energy Level</label>
+               
+       <div class="custom-select-list mt-0 mb-0">
+                 <select  class="bt-new-form form-select">
+                <option>..</option>
+                <option>High</option>
+                <option>Moderate</option>
+                <option>4-6 Years</option>
+                <option>Low</option>
+               
+             
+                  </select>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="row">
+    <div class="col-md-6 mt-2">
+  <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+   <label class="labels">Potty Break Schedule</label>
+               
+       <div class="custom-select-list mt-0 mb-0">
+                 <select  class="bt-new-form form-select">
+                <option>Every Hour </option>
+                <option>2 Hours</option>
+                <option>4 Hours</option>
+                <option>8 Hours</option>
+                <option>Custom</option>
+               
+             
+                  </select>
+      </div>
+    </div>
+      <div class="col-md-6 mt-2">
+ <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+  <label class="labels">Breed(s)</label>
+             
+       <div class="custom-select-list mt-0">
+                 <select  class="bt-new-form form-select">
+                <option>Labrador Retrievers</option>
+                <option>German Shepherd Dogs</option>
+                <option>Golden Retrievers</option>
+                <option>French Bulldogs</option>
+                <option>Bulldogs</option>
+                <option>Beagles</option>
+                <option>Poodles</option>
+                <option>Rottweilers</option>
+                <option>German Shorthaired Pointers</option>
+                <option>Yorkshire Terriers</option>
+                <option>Boxers</option>
+                <option>Dachshunds</option>
+                <option>Pembroke Welsh Corgis</option>
+                <option>Siberian Huskies</option>
+                  <option>Mixed</option>
+                  </select>
+      </div>
+              </div>
+      </div>
+      <div class="row">
+    <div class="col-md-6 mt-2">
+  <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+   <label class="labels">Can be left alone</label>
+               
+       <div class="custom-select-list mt-0 mb-0">
+                 <select  class="bt-new-form form-select">
+                  <option>...</option>
+                <option>Less than 1 hr</option>
+                <option>1-4 hrs</option>
+                <option>4-8 hrs</option>
+                <option>Custom</option>
+               
+             
+                  </select>
+      </div>
+    </div>
+      <div class="col-md-6 mt-2">
+ <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+  <label class="labels">Medication (Select all that apply)</label>
+             
+       <div class="custom-select-list mt-0">
+                 <select  class="bt-new-form form-select">
+                  <option>...</option>
+                <option>Pill</option>
+                <option>Topical</option>
+                <option>Injection</option>
+                  </select>
+      </div>
+              </div>
+      </div>
+         <div class="row">
+    <div class="col-md-6 mt-2">
+  <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+   <label class="labels">Anything else sitter should know about?</label>
+               
+       <div class="custom-select-list mt-0 mb-0">
+                 <select  class="bt-new-form form-select">
+                <option>Veterinary Information</option>
+                <option>Add vets name, address and contact number</option>
+               
+               
+             
+                  </select>
+      </div>
+    </div>
+      <div class="col-md-6 mt-2">
+ <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+  <label class="labels">Medication (Select all that apply)</label>
+             
+       <div class="custom-select-list mt-0">
+                 <select  class="bt-new-form form-select">
+                 
+                <option>Pill</option>
+                <option>Topical</option>
+                <option>Injection</option>
+                  </select>
+      </div>
+              </div>
+      </div>
+
+        <div class="row">
+    <div class="col-md-4 mt-2">
+  <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+   <label class="labels">Micro-chipped </label>
+               
+       <div class="custom-select-list mt-0 mb-0">
+                 <select  class="bt-new-form form-select">
+                
+                <option>Yes</option>
+                <option>No</option>
+               
+               
+             
+                  </select>
+      </div>
+    </div>
+      <div class="col-md-4 mt-2">
+ <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+  <label class="labels">Sprayed/Neutered </label>
+             
+       <div class="custom-select-list mt-0">
+                 <select  class="bt-new-form form-select">
+              
+                <option>Yes</option>
+                <option>No</option>
+                  </select>
+      </div>
+  </div>
+     <div class="col-md-4 mt-2">
+ <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+  <label class="labels">House Trained </label>
+             
+       <div class="custom-select-list mt-0">
+                 <select  class="bt-new-form form-select">
+               
+                <option>Yes</option>
+                <option>No</option>
+                  </select>
+      </div>
+  </div>
+    
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 mt-2">
+ <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+  <label class="labels">Friendly with children</label>
+             
+       <div class="custom-select-list mt-0">
+                 <select  class="bt-new-form form-select">
+             
+                <option>Yes</option>
+                <option>No</option>
+                  </select>
+      </div>
+  </div>
+     <div class="col-md-4 mt-2">
+ <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+  <label class="labels">Friendly with dogs?</label>
+             
+       <div class="custom-select-list mt-0">
+                 <select  class="bt-new-form form-select">
+               
+                <option>Yes</option>
+                <option>No</option>
+                  </select>
+      </div>
+  </div>
+    
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-12">
+           <h4 class="data-name fs-5 ms-4">Update Pet Photo</h4>
+          
+        
+      <form id="myForm" method="post">
+        <div class="add-photo">
+          <label for="files">
+       <lord-icon
+    src="https://cdn.lordicon.com/vixtkkbk.json"
+    trigger="loop"
+    colors="primary:#121331,secondary:#c91661"
+    stroke="44"
+    scale="30"
+    axis-x="48"
+    style="width:100px;height:100px;border:1px solid #e4e4e4;border-radius:100px;background-color: #e4e4e4;">
+          </lord-icon>
+           
+          </label>
+        <input type="file" id="files" name="files" style="visibility: hidden;"  multiple>
+         
+        <div id="selectedFiles" class="d-flex"></div>
+               <div class="save-bt mt-4">
+              <button type="button"class="hvr-sweep-to-right overflow-hidden">Submite</button>
+          </div>
+        
+
+        </div>
+  </form>
+
+  </div>
+
+</div>
+
+
+  </div>
+
+    
+    <div class="col-md-4 wow slideInRight" data-wow-duration="3s">
+       <div class="col-md-12 mb-5">
+        <div class="dp-uplode mb-5 position-relative">
+        <form id="myForm" method="post">
+           <div class="ulpode-sec ">
+             <div class="p-image">
+             <label for="files"><i class="fa fa-camera upload-button"></i></label>
+             </div>
+             <input type="file" id="dp-files" name="files" style="visibility: hidden;"  multiple>
+              <div id="selectedFilesone"></div>
+               <div class="circle">
+                  <i class="fa fa-user fa-5x"></i>
+                </div>
+           </div>
+                
+  </form>
+  </div>
+
+  
+    </div>
+
+    
+   
+      <div class="col-md-12 pt-5">
+          <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+        <label class="labels">Name</label><input type="text" class="form-control" placeholder="name" value=""></div>
+    <div class="col-md-12 mt-0" >
+        <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+        <label class="labels">About your pet</label><input type="text" class="form-control" placeholder="Add description" value=""></div> 
+
+<div class="col-md-12">
+        <div class="wrapper">
+       <div class="container-calendar justify-content-center">
+        <h3 id="monthAndYear">September 2021</h3>
+        <div class="button-container-calendar">
+         <div class="footer-container-calendar">   
+          <button id="previous" onclick="previous()">‹</button>
+             <label  for="month">Jump To: </label>
+             <select id="month" onchange="jump()">
+                 <option value="0">Jan</option>
+                 <option value="1">Feb</option>
+                 <option value="2">Mar</option>
+                 <option value="3">Apr</option>
+                 <option value="4">May</option>
+                 <option value="5">Jun</option>
+                 <option value="6">Jul</option>
+                 <option value="7">Aug</option>
+                 <option value="8">Sep</option>
+                 <option value="9">Oct</option>
+                 <option value="10">Nov</option>
+                 <option value="11">Dec</option>
+             </select>
+             <select id="year" onchange="jump()"><option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1977">1977</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option><option value="2030">2030</option><option value="2031">2031</option><option value="2032">2032</option><option value="2033">2033</option><option value="2034">2034</option><option value="2035">2035</option><option value="2036">2036</option><option value="2037">2037</option><option value="2038">2038</option><option value="2039">2039</option><option value="2040">2040</option><option value="2041">2041</option><option value="2042">2042</option><option value="2043">2043</option><option value="2044">2044</option><option value="2045">2045</option><option value="2046">2046</option><option value="2047">2047</option><option value="2048">2048</option><option value="2049">2049</option><option value="2050">2050</option></select>       
+       
+            <button id="next" onclick="next()">›</button>
+        </div>
+         </div>
+        <table class="table-calendar" id="calendar" data-lang="en">
+            <thead id="thead-month"><tr><th data-days="Mon">Mon</th><th data-days="Tue">Tue</th><th data-days="Wed">Wed</th><th data-days="Thu">Thu</th><th data-days="Fri">Fri</th><th data-days="Sat">Sat</th><th data-days="Sun">Sun</th></tr></thead>
+            <tbody id="calendar-body"><tr><td></td><td></td><td data-date="1" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>1</span></td><td data-date="2" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>2</span></td><td data-date="3" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>3</span></td><td data-date="4" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>4</span></td><td data-date="5" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>5</span></td></tr><tr><td data-date="6" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>6</span></td><td data-date="7" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>7</span></td><td data-date="8" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>8</span></td><td data-date="9" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>9</span></td><td data-date="10" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>10</span></td><td data-date="11" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>11</span></td><td data-date="12" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>12</span></td></tr><tr><td data-date="13" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>13</span></td><td data-date="14" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>14</span></td><td data-date="15" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>15</span></td><td data-date="16" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>16</span></td><td data-date="17" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>17</span></td><td data-date="18" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>18</span></td><td data-date="19" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>19</span></td></tr><tr><td data-date="20" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>20</span></td><td data-date="21" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>21</span></td><td data-date="22" data-month="9" data-year="2021" data-month_name="September" class="date-picker selected"><span>22</span></td><td data-date="23" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>23</span></td><td data-date="24" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>24</span></td><td data-date="25" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>25</span></td><td data-date="26" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>26</span></td></tr><tr><td data-date="27" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>27</span></td><td data-date="28" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>28</span></td><td data-date="29" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>29</span></td><td data-date="30" data-month="9" data-year="2021" data-month_name="September" class="date-picker"><span>30</span></td></tr><tr></tr></tbody>
+        </table>
+
+            <div class="available-unailable-sec d-flex justify-content-center mt-3">
+          <div class="available ">
+             <input  class="mt-0 p-0" class="form-check-input" type="checkbox" value="Available" id="flexCheckDefault">
+             <label  class="form-check-label" for="flexCheckDefault">Available</label>
+        </div>
+        <div class="unailable ms-2">
+            <input class="mt-0 p-0" class="form-check-input" type="checkbox" value="Unavailable" id="flexCheckDefault">
+             <label class="form-check-label" for="flexCheckDefault">Unavailable</label>
+         </div>
+
+         </div>
+          
+         </div>
+      </div>
+
+</div> 
+  </div>
+
+  </div>
+
+
+          
+        
+
+    </div>
+</div>
+</div>
+</div>
+</section>
+                       
+    <footer class="ftsec">
+      <div class="container">
+        <div class="row py-md-5">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="ft-logo">
+              <img src="images/ftlogo.png" alt="foot-logo" class="img-fluid">
+              <h3>A Little About Us:</h3>
+              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="keep_text">
+              <h3>Keep In Touch :</h3>
+              <div class="cnline2"></div>
+            </div>
+            <div class="keep_hd">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="email-icons">
+                    <img src="images/em-icons.png" alt="email" class="img-fluid"> 
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="email-hd">
+                    <ul>
+                      <li><strong>Our Address</strong> </li>
+                      <li><a href="mailto:doggywllc@gmail.com">Doggywllc@gmail.com</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="keep_hd">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="email-icons">
+                    <img src="images/ph-icons.png" alt="email" class="img-fluid"> 
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="email-hd">
+                    <ul>
+                      <li><strong>Phone</strong></li>
+                      <li><a href="tel:18328764679">+1-832-8764679</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="keep_hd">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="email-icons">
+                    <img src="images/lo-icons.png" alt="email pics" class="img-fluid"> 
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="email-hd">
+                    <ul>
+                      <li><strong>Our location</strong></li>
+                      <li><a href="">DW LLC - 19901 SW Fwy, Houston TX, 77479.</a> 
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <div class="keep_text">
+              <h3>Use Links :</h3>
+              <div class="cnline2"></div>
+            </div>
+            <div class="ft_link">
+              <ul>
+                <li><a href="index.html">- Home</a></li>
+                <li><a href="services.html">- Our Services</a></li>
+                <li><a href="about.html">- About Us</a></li>
+                <li><a href="heroes.html">- Doggy Wawky Heroes</a></li>
+                <li><a href="testimonials.html">- Our Testimonials</a></li>
+                <li><a href="contact.html">- Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="keep_text">
+              <h3>Download the Doggy Wawky app</h3>
+            </div>
+            <div class="app-ft">
+              <p>Available on iOS, and Android</p>
+            </div>
+            <div class="app-pic">
+              <a href="https://www.apple.com/app-store/"><img src="images/stor1.png" alt="store" class="img-fluid"></a> 
+              <a href="https://play.google.com/store/apps"> <img src="images/stor2.png" alt="store" class="img-fluid"></a> 
+            </div>
+            <div class="follow-link">
+              <ul>
+                <li><a href="#"><img src="images/soical1.png" alt="social icons" class="img-fluid"> </a></li>
+                <li><a href="#"><img src="images/soical2.png" alt="social icons" class="img-fluid"> </a></li>
+                <li><a href="#"><img src="images/soical3.png" alt="social icons" class="img-fluid"> </a></li>
+                <li><a href="#"><img src="images/soical4.png" alt="social icons" class="img-fluid"> </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ft-second py-md-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-3 col-xs-12">
+              <div class="ft-address text-white">
+                <p class="text-white">Copyrights &copy; All Rights Reserved 2021 | Houston, TX, USA.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-3 col-xs-12 text-end">
+              <div class="ft-links text-white font-montserrat">
+                <a class="text-white text-decoration-none" href="privacy.html">Privacy policy</a>  |  <a class="text-white text-decoration-none" href="tos.html">Terms & conditions</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a onclick="topFunction()" id="tp_btn" title="Back to top" style="display: block;"><span><i class="fa fa-angle-up"></i></span></a>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/intlTelInput.min.js"></script>
+    <script src="js/jquery.dropdown.js"></script>
+    <script src="js/jquery.dropdown.min.js"></script>
+    <script type="text/javascript" src="js/mock.js"></script>
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+      
+    
+    <script type="text/javascript">
+      var selDiv = "";
+  var storedFiles = [];
+  
+  $(document).ready(function() {
+    $("#files").on("change", handleFileSelect);
+    
+    selDiv = $("#selectedFiles"); 
+    $("#myForm").on("submit", handleForm);
+    
+    $("body").on("click", ".selFile", removeFile);
+  });
+    
+  function handleFileSelect(e) {
+    var files = e.target.files;
+    var filesArr = Array.prototype.slice.call(files);
+    filesArr.forEach(function(f) {      
+
+      if(!f.type.match("image.*")) {
+        return;
+      }
+      storedFiles.push(f);
+      
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        var html = "<div><img src=\"" + e.target.result + "\" data-file='"+f.name+"' class='selFile' title='Click to remove'>" + f.name + "<br clear=\"left\"/></div>";
+        selDiv.append(html);
+        
+      }
+      reader.readAsDataURL(f); 
+    });
+    
+  }
+    
+  function handleForm(e) {
+    e.preventDefault();
+    var data = new FormData();
+    
+    for(var i=0, len=storedFiles.length; i<len; i++) {
+      data.append('files', storedFiles[i]); 
+    }
+    
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'handler.cfm', true);
+    
+    xhr.onload = function(e) {
+      if(this.status == 200) {
+        console.log(e.currentTarget.responseText);  
+        alert(e.currentTarget.responseText + ' items uploaded.');
+      }
+    }
+    
+    xhr.send(data);
+  }
+    
+  function removeFile(e) {
+    var file = $(this).data("file");
+    for(var i=0;i<storedFiles.length;i++) {
+      if(storedFiles[i].name === file) {
+        storedFiles.splice(i,1);
+        break;
+      }
+    }
+    $(this).parent().remove();
+  }  
+    </script>
+
+   <script type="text/javascript">
+      function generate_year_range(start, end) {
+    var years = "";
+    for (var year = start; year <= end; year++) {
+        years += "<option value='" + year + "'>" + year + "</option>";
+    }
+    return years;
+}
+
+today = new Date();
+currentMonth = today.getMonth();
+currentYear = today.getFullYear();
+selectYear = document.getElementById("year");
+selectMonth = document.getElementById("month");
+
+
+createYear = generate_year_range(1970, 2050);
+/** or
+ * createYear = generate_year_range( 1970, currentYear );
+ */
+
+document.getElementById("year").innerHTML = createYear;
+
+var calendar = document.getElementById("calendar");
+var lang = calendar.getAttribute('data-lang');
+
+var months = "";
+var days = "";
+
+var monthDefault = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+var dayDefault = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+    months = monthDefault;
+    days = dayDefault;
+
+var $dataHead = "<tr>";
+for (dhead in days) {
+    $dataHead += "<th data-days='" + days[dhead] + "'>" + days[dhead] + "</th>";
+}
+$dataHead += "</tr>";
+
+//alert($dataHead);
+document.getElementById("thead-month").innerHTML = $dataHead;
+
+
+monthAndYear = document.getElementById("monthAndYear");
+showCalendar(currentMonth, currentYear);
+
+
+
+function next() {
+    currentYear = (currentMonth === 11) ? currentYear + 1 : currentYear;
+    currentMonth = (currentMonth + 1) % 12;
+    showCalendar(currentMonth, currentYear);
+}
+
+function previous() {
+    currentYear = (currentMonth === 0) ? currentYear - 1 : currentYear;
+    currentMonth = (currentMonth === 0) ? 11 : currentMonth - 1;
+    showCalendar(currentMonth, currentYear);
+}
+
+function jump() {
+    currentYear = parseInt(selectYear.value);
+    currentMonth = parseInt(selectMonth.value);
+    showCalendar(currentMonth, currentYear);
+}
+
+function showCalendar(month, year) {
+
+    var firstDay = ( new Date( year, month ) ).getDay() - 1;
+
+    tbl = document.getElementById("calendar-body");
+
+    
+    tbl.innerHTML = "";
+
+    
+    monthAndYear.innerHTML = months[month] + " " + year;
+    selectYear.value = year;
+    selectMonth.value = month;
+
+    // creating all cells
+    var date = 1;
+    for ( var i = 0; i < 6; i++ ) {
+        
+        var row = document.createElement("tr");
+
+        
+        for ( var j = 0; j < 7; j++ ) {
+            if ( i === 0 && j < firstDay ) {
+                cell = document.createElement( "td" );
+                cellText = document.createTextNode("");
+                cell.appendChild(cellText);
+                row.appendChild(cell);
+            } else if (date > daysInMonth(month, year)) {
+                break;
+            } else {
+                cell = document.createElement("td");
+                cell.setAttribute("data-date", date);
+                cell.setAttribute("data-month", month + 1);
+                cell.setAttribute("data-year", year);
+                cell.setAttribute("data-month_name", months[month]);
+                cell.className = "date-picker";
+                cell.innerHTML = "<span>" + date + "</span>";
+
+                if ( date === today.getDate() && year === today.getFullYear() && month === today.getMonth() ) {
+                    cell.className = "date-picker selected";
+                }
+                row.appendChild(cell);
+                date++;
+            }
+
+
+        }
+
+        tbl.appendChild(row);
+    }
+
+}
+
+function daysInMonth(iMonth, iYear) {
+    return 32 - new Date(iYear, iMonth, 32).getDate();
+}
+    </script> 
+
+
+    
+  </body>
+</html>

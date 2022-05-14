@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+    <title>Checkout - Doggy Wakky</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/brands.min.css">
+    <link rel="stylesheet" type="text/css" href="css/solid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="preload" href="fonts/oswald-stencil-webfont.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="fonts/oswald-stencil-webfont.woff" as="font" type="font/woff" />
+    <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="fonts/Montserrat-Bold.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-Black.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Black.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="fonts/Montserrat-SemiBold.woff" as="font" type="font/woff" />
+    <link rel="preload" href="fonts/Montserrat-Light.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Light.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Medium.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Regular.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="webfonts/fa-brands-400.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2"  />
+    <link rel="stylesheet" type="text/css" href="css/responsive-xl.css" media="(max-width: 1399.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-lg.css" media="(max-width: 1199.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-md.css" media="(max-width: 991.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-sm.css" media="(max-width: 767.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-xs.css" media="(max-width: 320.98px)">
+   
+  </head>
+  <body>
+    <header class="position-absolute">
+      <div class="nav_first wow fadeInUp" data-wow-duration="2s">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-4 col-xs-12">
+              <div class="main_menu">
+                <ul>
+                  <li><a href="services.html">Services </a></li>
+                  <span>|</span>
+                  <li><a href="product-shop.html">DW Shop</a></li>
+                  <span>|</span>
+                  <li><a href="heroes.html">DW Heroes</a></li>
+                  <span>|</span>
+                  <li><a href="about.html">About Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12">
+              <div class="mainlogo">
+                <a href="index.html"><img src="images/logo.png" alt="Doggy Wawky" class="img-fluid center-block d-block mx-auto"></a>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-4 col-xs-12">
+              <div class="auth-btn float-end">
+                <a class="d-inline-flex text-white text-decoration-none" href="sign-in.html">Sign In</a>
+                <span class="text-white ms-2 me-2">|</span>
+                <a class="d-inline-flex text-white text-decoration-none" href="sign-up-email.html">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="header-checkout">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="banner_text">
+              <h1 class="wow fadeInUp" data-wow-duration="3s">Check Out</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="check-out-sec py-md-5 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-6">
+            <div class="bg-blue">
+              <p>Returning Customers ?<a href="sign-in.html">Click Here To Login</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="wow fadeInLeft" data-wow-duration="3s">
+            <div class="col-lg-12 col-md-12">
+              <h2 class="section-heading  mt-md-5 mb-5">Billing Info</h2>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="cart-info mt-md-1">
+                <input type="text" id="name" name="name" required="required" />
+                <label for="name">Your Name</label>      
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="cart-info mt-md-1">
+                <input type="text" id="name" name="name" required="required" />
+                <label for="name">Company Name</label>      
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="cart-info mt-md-1">
+                <input type="text" id="name" name="name" required="required" />
+                <label for="name">Address</label>      
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="custom-select-list mt-md-1">
+                <select  class="form-select">
+                  <option class="service-small" value="0">Country <span>*</span></option>
+                  <option class="service-small" value="1">California</option>
+                  <option class="service-small" value="2">Texas</option>
+                  <option class="service-small" value="3">Washington</option>
+                  <option class="service-small" value="4">Florida</option>
+                  <option class="service-small" value="5">Hawaii</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="cart-info  mt-md-4">
+                <input type="text" id="name" name="name" required="required" />
+                <label for="name">Postcode / Zipcode</label>      
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="cart-info  mt-md-2">
+                <input type="text" id="name" name="email-id" required="required" />
+                <label for="name">Email id</label>      
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="cart-info  mt-md-2">
+                <input type="text" id="name" name="email-id" required="required" />
+                <label for="name">Phone Number</label>      
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="checkbox-sec mt-md-4">
+                <input type="Checkbox" name="Checkbox"><small>Creat An Account?</small>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="checkbox-sec ship-d mt-md-5">
+                <input type="radio" name="Checkbox"><span>Ship To Different Address</span> 
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="checkbox-sec mt-md-4">
+                <textarea>Order Note*</textarea>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="checkbox-sec mt-md-4">
+                <div class="sendbox">
+                  <button type="button" class="hvr-sweep-to-right position-relative overflow-hidden">Place Order</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="wow fadeInRight" data-wow-duration="3s">
+              <div class="col-lg-12 col-md-12">
+                <h2 class="section-heading  mt-md-5 mb-5">Your Order</h2>
+              </div>
+              <div class="your-order-main border-style pt-md-5 px-md-5">
+                <div class="row g-0">
+                  <div class="col-lg-6 col-md-6">
+                    <div class="Products_hd mb-5">
+                      <h5>Products</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="Products_hd text-end mb-5">
+                      <h5>Totals</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="Products_hd mt-md-1 mb-0">
+                      <p>Power Supply X-1</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="Products_hd text-end  mt-md-1 mb-0">
+                      <p class="text-danger">$250.00</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="Products_hd mt-md-1  mb-0">
+                      <p>Sub Total</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="Products_hd text-end  mt-md-1  mb-0">
+                      <p class="text-danger">$250.00</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="Products_hd mt-md-1  mb-0">
+                      <p>Shipping And Handling</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="Products_hd text-end  mt-md-1  mb-0">
+                      <p class="text-secondary">Free</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="Products_hd mt-md-4  mb-0">
+                      <h5>Total</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="Products_hd text-end  mt-md-4  mb-0">
+                      <h5 class="text-danger">$250.00</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <div class="checkbox-sec ship-d bank-pay mt-md-5">
+                      <input type="Checkbox" name="Checkbox"><span>Direct Bank Transfer</span> 
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <p  class="bank-text mt-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat.
+                    </p>
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <div class="checkbox-sec ship-d bank-pay mt-md-4">
+                      <input type="Checkbox" name="Checkbox"><span>Check Payment</span> 
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <div class="checkbox-sec ship-d bank-pay mt-md-4">
+                      <input type="Checkbox" name="Checkbox"><span>Paypal</span> 
+                      <img src="images/paypal.png" class="img-fluid" alt="paypal">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="ftsec">
+      <div class="container">
+        <div class="row py-md-5">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="ft-logo">
+              <img src="images/ftlogo.png" alt="foot-logo" class="img-fluid">
+              <h3>A Little About Us:</h3>
+              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="keep_text">
+              <h3>Keep In Touch :</h3>
+              <div class="cnline2"></div>
+            </div>
+            <div class="keep_hd">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="email-icons">
+                    <img src="images/em-icons.png" alt="email" class="img-fluid"> 
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="email-hd">
+                    <ul>
+                      <li><strong>Our Address</strong> </li>
+                      <li><a href="mailto:doggywllc@gmail.com">Doggywllc@gmail.com</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="keep_hd">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="email-icons">
+                    <img src="images/ph-icons.png" alt="email" class="img-fluid"> 
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="email-hd">
+                    <ul>
+                      <li><strong>Phone</strong></li>
+                      <li><a href="tel:18328764679">+1-832-8764679</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="keep_hd">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="email-icons">
+                    <img src="images/lo-icons.png" alt="email pics" class="img-fluid"> 
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="email-hd">
+                    <ul>
+                      <li><strong>Our location</strong></li>
+                      <li><a href="">DW LLC - 19901 SW Fwy, Houston TX, 77479.</a> 
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <div class="keep_text">
+              <h3>Use Links :</h3>
+              <div class="cnline2"></div>
+            </div>
+            <div class="ft_link">
+              <ul>
+                <li><a href="index.html">- Home</a></li>
+                <li><a href="services.html">- Our Services</a></li>
+                <li><a href="about.html">- About Us</a></li>
+                <li><a href="heroes.html">- Doggy Wawky Heroes</a></li>
+                <li><a href="testimonials.html">- Our Testimonials</a></li>
+                <li><a href="contact.html">- Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="keep_text">
+              <h3>Download the Doggy Wawky app</h3>
+            </div>
+            <div class="app-ft">
+              <p>Available on iOS, and Android</p>
+            </div>
+            <div class="app-pic">
+              <a href="https://www.apple.com/app-store/"><img src="images/stor1.png" alt="store" class="img-fluid"></a> 
+              <a href="https://play.google.com/store/apps"> <img src="images/stor2.png" alt="store" class="img-fluid"></a> 
+            </div>
+            <div class="follow-link">
+              <ul>
+                <li><a href="#"><img src="images/soical1.png" alt="social icons" class="img-fluid"> </a></li>
+                <li><a href="#"><img src="images/soical2.png" alt="social icons" class="img-fluid"> </a></li>
+                <li><a href="#"><img src="images/soical3.png" alt="social icons" class="img-fluid"> </a></li>
+                <li><a href="#"><img src="images/soical4.png" alt="social icons" class="img-fluid"> </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ft-second py-md-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-3 col-xs-12">
+              <div class="ft-address text-white">
+                <p class="text-white">Copyrights &copy; All Rights Reserved 2021 | Houston, TX, USA.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-3 col-xs-12 text-end">
+              <div class="ft-links text-white font-montserrat">
+                <a class="text-white text-decoration-none" href="privacy.html">Privacy policy</a>  |  <a class="text-white text-decoration-none" href="tos.html">Terms & conditions</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a onclick="topFunction()" id="tp_btn" title="Back to top"><span><i class="fa fa-angle-up"></i></span></a>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="js/intlTelInput.min.js"></script>
+  </body>
+</html>

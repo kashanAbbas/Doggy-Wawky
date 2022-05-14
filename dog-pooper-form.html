@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+    <title>dog-pooper-form</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/brands.min.css">
+    <link rel="stylesheet" type="text/css" href="css/solid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.dropdown.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.dropdown.min.css">
+    <link rel="preload" href="fonts/oswald-stencil-webfont.woff2" as="font" type="font/woff2"/>
+    <link rel="preload" href="fonts/oswald-stencil-webfont.woff" as="font" type="font/woff"/>
+    <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="fonts/Montserrat-Bold.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-Black.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Black.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="fonts/Montserrat-SemiBold.woff" as="font" type="font/woff" />
+    <link rel="preload" href="fonts/Montserrat-Light.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Light.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Medium.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="fonts/Montserrat-Regular.woff" as="font" type="font/woff"  />
+    <link rel="preload" href="webfonts/fa-brands-400.woff2" as="font" type="font/woff2"  />
+    <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2"  />
+    <link rel="stylesheet" type="text/css" href="css/responsive-xl.css" media="(max-width: 1399.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-lg.css" media="(max-width: 1199.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-md.css" media="(max-width: 991.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-sm.css" media="(max-width: 767.98px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive-xs.css" media="(max-width: 320.98px)">
+
+  <style type="text/css">
+  .dog-walking-fome .bt-days li{
+    margin: 0px 8px;
+    display: inline-block;
+  }
+    .dog-walking-fome .bt-days button{
+    padding: 10px 10px;
+    outline: 0px;
+    border: 0px;
+    color: #fff;
+    font-family: 'Montserrat';
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(34 34 74)
+    }
+    
+
+.dog-walking-fome .bt-days button:hover{
+  background-color: ;
+}
+
+
+.dog-walking-fome .custom-select-list .select-items{
+     border:1px solid #ccc;    
+}
+.custom-select-list .select-selected {
+     border:1px solid #ccc;
+     border-radius: 8px !important;
+
+}
+  </style>  
+  </head>
+  <body>
+    <header class="bg-navy-blue py-md-3">
+      <div class="nav_first wow fadeInUp" data-wow-duration="2s">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-4 col-xs-12">
+              <div class="main_menu">
+                <ul>
+                  <li><a href="services.html">Services </a></li>
+                  <span>|</span>
+                  <li><a href="product-shop.html">DW Shop</a></li>
+                  <span>|</span>
+                  <li><a href="heroes.html">DW Heroes</a></li>
+                  <span>|</span>
+                  <li><a href="about.html">About Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-12">
+              <div class="mainlogo dashborad-logo">
+                <a href="index.html"> <img src="images/logo.png" alt="logo" class="img-fluid center-block d-block mx-auto"></a>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-4 col-xs-12 text-end">
+              <div class="dashborad-sec">
+                <div class="first-profile">
+                  <a href="search-now.html"><img src="images/profile-pic.png" alt="profile" class="img-fluid"> </a>  
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Oliver ava</button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                      <li><a class="dropdown-item" href="profile-setting.html">edit profile</a></li>
+                      <li><a class="dropdown-item" href="index.html">Log Out</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="profile-text">
+                  <ul>
+                    <li><a href="#">Help ?</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+ <section class="profile-setting dog-walking-fome WawkyAppSec  py-md-0">
+    <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-9 bg-white  text-dark  ps-5 pe-5">
+         <div class="col-md-12 mt-5 ">
+            <h1 class="text-center section-heading">dog pooper</h1>
+        </div>
+       
+       <div class="col-md-5 mt-4">
+       <h2>Age Verification</h2>
+       <p class="paragraph">We won't share or display this on your profile.</p>
+       <input type="date" class="form-control" id="birthday" value="birthday" placeholder="Dropoff Date">
+     </div>
+
+      <div class="col-md-12  mt-3 pt-0 py-0">
+        <h5>Please choose dog poop services</h5>
+       <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+        <label class="labels">One-time cleanup</label> 
+       <input type="date" class="form-control" id="birthday" value="birthday" placeholder="Dropoff Date">
+     </div>
+
+
+
+
+      <div class="col-md-12  mt-3 pt-0 py-0">
+       <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+        <label class="labels">Once a week (select a day)</label>
+        <p class="paragraph ms-5">(select day you are typically avallable)</p>
+        
+        <div class="bt-days mt-4 justify-content-center">
+        <ul>
+          <li><button  class="hvr-sweep-to-right overflow-hidden">Monday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Tuesday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Wednesday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Thursday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Friday</button></li>
+          <li ><button   class="hvr-sweep-to-right overflow-hidden">Saturday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Sunday</button></li>
+        </ul>
+        </div>
+     </div>
+
+
+      <div class="col-md-12  mt-3 pt-0 py-0">
+       <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+        <label class="labels">Twice a week</label>
+        <p class="paragraph ms-5">(select days you)</p>
+        
+        <div class="bt-days mt-4 justify-content-center">
+        <ul>
+          <li><button  class="hvr-sweep-to-right overflow-hidden">Monday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Tuesday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Wednesday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Thursday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Friday</button></li>
+          <li ><button   class="hvr-sweep-to-right overflow-hidden">Saturday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Sunday</button></li>
+        </ul>
+        </div>
+     </div>
+
+      <div class="col-md-12  mt-3 pt-0 py-0">
+       <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+        <label class="labels">Thrice a week </label>
+        <p class="paragraph ms-5">(select days)</p>
+        
+        <div class="bt-days mt-4 justify-content-center">
+        <ul>
+          <li><button  class="hvr-sweep-to-right overflow-hidden">Monday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Tuesday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Wednesday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Thursday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Friday</button></li>
+          <li ><button   class="hvr-sweep-to-right overflow-hidden">Saturday</button></li>
+          <li><button   class="hvr-sweep-to-right overflow-hidden">Sunday</button></li>
+        </ul>
+        </div>
+     </div>
+
+
+    
+
+     <div class="col-md-12  mt-3 pt-0 py-0">
+       <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+        <label class="labels">Monthly cleanup</label> 
+         <p class="paragraph ms-5">(The date you select will be counted as the starting month)</p>
+       <input type="date" class="form-control" id="birthday" value="birthday" placeholder="Dropoff Date">
+     </div>
+
+
+
+     
+
+    
+     
+     <div class="col-md-12 mt-5">
+       <img src="images/basic_info_logo2.png" alt="paw" class="img-fluid">
+        <label class="labels">Cancellation Policy</label>
+      <ul class="d-flex mt-2 ms-3 mb-0">
+        <li>  <div class="form-check mt-0 py-0">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label mt-0 ms-0 fw-normal" for="flexCheckDefault">
+            Same day 
+             </label>
+         </div></li>
+         <li>  <div class="form-check mt-0 py-0">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label mt-0 ms-0 fw-normal" for="flexCheckDefault">
+            One day
+             </label>
+         </div></li>
+          
+          <li>  
+            <div class="form-check mt-0 py-0">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label mt-0 ms-0 fw-normal" for="flexCheckDefault">
+            Two day
+             </label>
+             </div>
+          </li>
+
+      </ul>
+     </div>   
+
+     </div>
+       
+       
+          
+        
+  </div>
+
+
+</div>
+</section>
+
+
+
+   
+                       
+    <footer class="ftsec">
+      <div class="container">
+        <div class="row py-md-5">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="ft-logo">
+              <img src="images/ftlogo.png" alt="foot-logo" class="img-fluid">
+              <h3>A Little About Us:</h3>
+              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="keep_text">
+              <h3>Keep In Touch :</h3>
+              <div class="cnline2"></div>
+            </div>
+            <div class="keep_hd">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="email-icons">
+                    <img src="images/em-icons.png" alt="email" class="img-fluid"> 
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="email-hd">
+                    <ul>
+                      <li><strong>Our Address</strong> </li>
+                      <li><a href="mailto:doggywllc@gmail.com">Doggywllc@gmail.com</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="keep_hd">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="email-icons">
+                    <img src="images/ph-icons.png" alt="email" class="img-fluid"> 
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="email-hd">
+                    <ul>
+                      <li><strong>Phone</strong></li>
+                      <li><a href="tel:18328764679">+1-832-8764679</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="keep_hd">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="email-icons">
+                    <img src="images/lo-icons.png" alt="email pics" class="img-fluid"> 
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="email-hd">
+                    <ul>
+                      <li><strong>Our location</strong></li>
+                      <li><a href="">DW LLC - 19901 SW Fwy, Houston TX, 77479.</a> 
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-3 col-xs-12">
+            <div class="keep_text">
+              <h3>Use Links :</h3>
+              <div class="cnline2"></div>
+            </div>
+            <div class="ft_link">
+              <ul>
+                <li><a href="index.html">- Home</a></li>
+                <li><a href="services.html">- Our Services</a></li>
+                <li><a href="about.html">- About Us</a></li>
+                <li><a href="heroes.html">- Doggy Wawky Heroes</a></li>
+                <li><a href="testimonials.html">- Our Testimonials</a></li>
+                <li><a href="contact.html">- Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="keep_text">
+              <h3>Download the Doggy Wawky app</h3>
+            </div>
+            <div class="app-ft">
+              <p>Available on iOS, and Android</p>
+            </div>
+            <div class="app-pic">
+              <a href="https://www.apple.com/app-store/"><img src="images/stor1.png" alt="store" class="img-fluid"></a> 
+              <a href="https://play.google.com/store/apps"> <img src="images/stor2.png" alt="store" class="img-fluid"></a> 
+            </div>
+            <div class="follow-link">
+              <ul>
+                <li><a href="#"><img src="images/soical1.png" alt="social icons" class="img-fluid"> </a></li>
+                <li><a href="#"><img src="images/soical2.png" alt="social icons" class="img-fluid"> </a></li>
+                <li><a href="#"><img src="images/soical3.png" alt="social icons" class="img-fluid"> </a></li>
+                <li><a href="#"><img src="images/soical4.png" alt="social icons" class="img-fluid"> </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ft-second py-md-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-3 col-xs-12">
+              <div class="ft-address text-white">
+                <p class="text-white">Copyrights &copy; All Rights Reserved 2021 | Houston, TX, USA.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-3 col-xs-12 text-end">
+              <div class="ft-links text-white font-montserrat">
+                <a class="text-white text-decoration-none" href="privacy.html">Privacy policy</a>  |  <a class="text-white text-decoration-none" href="tos.html">Terms & conditions</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a onclick="topFunction()" id="tp_btn" title="Back to top" style="display: block;"><span><i class="fa fa-angle-up"></i></span></a>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/intlTelInput.min.js"></script>
+    <script src="js/jquery.dropdown.js"></script>
+    <script src="js/jquery.dropdown.min.js"></script>
+    <script type="text/javascript" src="js/mock.js"></script>
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+      
+    
+    <script type="text/javascript">
+      var selDiv = "";
+  var storedFiles = [];
+  
+  $(document).ready(function() {
+    $("#files").on("change", handleFileSelect);
+    
+    selDiv = $("#selectedFiles"); 
+    $("#myForm").on("submit", handleForm);
+    
+    $("body").on("click", ".selFile", removeFile);
+  });
+    
+  function handleFileSelect(e) {
+    var files = e.target.files;
+    var filesArr = Array.prototype.slice.call(files);
+    filesArr.forEach(function(f) {      
+
+      if(!f.type.match("image.*")) {
+        return;
+      }
+      storedFiles.push(f);
+      
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        var html = "<div><img src=\"" + e.target.result + "\" data-file='"+f.name+"' class='selFile' title='Click to remove'>" + f.name + "<br clear=\"left\"/></div>";
+        selDiv.append(html);
+        
+      }
+      reader.readAsDataURL(f); 
+    });
+    
+  }
+    
+  function handleForm(e) {
+    e.preventDefault();
+    var data = new FormData();
+    
+    for(var i=0, len=storedFiles.length; i<len; i++) {
+      data.append('files', storedFiles[i]); 
+    }
+    
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'handler.cfm', true);
+    
+    xhr.onload = function(e) {
+      if(this.status == 200) {
+        console.log(e.currentTarget.responseText);  
+        alert(e.currentTarget.responseText + ' items uploaded.');
+      }
+    }
+    
+    xhr.send(data);
+  }
+    
+  function removeFile(e) {
+    var file = $(this).data("file");
+    for(var i=0;i<storedFiles.length;i++) {
+      if(storedFiles[i].name === file) {
+        storedFiles.splice(i,1);
+        break;
+      }
+    }
+    $(this).parent().remove();
+  }  
+    </script>
+
+   <script type="text/javascript">
+      function generate_year_range(start, end) {
+    var years = "";
+    for (var year = start; year <= end; year++) {
+        years += "<option value='" + year + "'>" + year + "</option>";
+    }
+    return years;
+}
+
+today = new Date();
+currentMonth = today.getMonth();
+currentYear = today.getFullYear();
+selectYear = document.getElementById("year");
+selectMonth = document.getElementById("month");
+
+
+createYear = generate_year_range(1970, 2050);
+/** or
+ * createYear = generate_year_range( 1970, currentYear );
+ */
+
+document.getElementById("year").innerHTML = createYear;
+
+var calendar = document.getElementById("calendar");
+var lang = calendar.getAttribute('data-lang');
+
+var months = "";
+var days = "";
+
+var monthDefault = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+var dayDefault = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+    months = monthDefault;
+    days = dayDefault;
+
+var $dataHead = "<tr>";
+for (dhead in days) {
+    $dataHead += "<th data-days='" + days[dhead] + "'>" + days[dhead] + "</th>";
+}
+$dataHead += "</tr>";
+
+//alert($dataHead);
+document.getElementById("thead-month").innerHTML = $dataHead;
+
+
+monthAndYear = document.getElementById("monthAndYear");
+showCalendar(currentMonth, currentYear);
+
+
+
+function next() {
+    currentYear = (currentMonth === 11) ? currentYear + 1 : currentYear;
+    currentMonth = (currentMonth + 1) % 12;
+    showCalendar(currentMonth, currentYear);
+}
+
+function previous() {
+    currentYear = (currentMonth === 0) ? currentYear - 1 : currentYear;
+    currentMonth = (currentMonth === 0) ? 11 : currentMonth - 1;
+    showCalendar(currentMonth, currentYear);
+}
+
+function jump() {
+    currentYear = parseInt(selectYear.value);
+    currentMonth = parseInt(selectMonth.value);
+    showCalendar(currentMonth, currentYear);
+}
+
+function showCalendar(month, year) {
+
+    var firstDay = ( new Date( year, month ) ).getDay() - 1;
+
+    tbl = document.getElementById("calendar-body");
+
+    
+    tbl.innerHTML = "";
+
+    
+    monthAndYear.innerHTML = months[month] + " " + year;
+    selectYear.value = year;
+    selectMonth.value = month;
+
+    // creating all cells
+    var date = 1;
+    for ( var i = 0; i < 6; i++ ) {
+        
+        var row = document.createElement("tr");
+
+        
+        for ( var j = 0; j < 7; j++ ) {
+            if ( i === 0 && j < firstDay ) {
+                cell = document.createElement( "td" );
+                cellText = document.createTextNode("");
+                cell.appendChild(cellText);
+                row.appendChild(cell);
+            } else if (date > daysInMonth(month, year)) {
+                break;
+            } else {
+                cell = document.createElement("td");
+                cell.setAttribute("data-date", date);
+                cell.setAttribute("data-month", month + 1);
+                cell.setAttribute("data-year", year);
+                cell.setAttribute("data-month_name", months[month]);
+                cell.className = "date-picker";
+                cell.innerHTML = "<span>" + date + "</span>";
+
+                if ( date === today.getDate() && year === today.getFullYear() && month === today.getMonth() ) {
+                    cell.className = "date-picker selected";
+                }
+                row.appendChild(cell);
+                date++;
+            }
+
+
+        }
+
+        tbl.appendChild(row);
+    }
+
+}
+
+function daysInMonth(iMonth, iYear) {
+    return 32 - new Date(iYear, iMonth, 32).getDate();
+}
+    </script> 
+
+
+    
+  </body>
+</html>
